@@ -2,7 +2,7 @@ package aula_02;
 
 import java.util.Scanner;
 
-public class Exercicio8ContaBancaria {
+public class Exercicio8SwitchContaBancaria {
 	static Scanner entrada = new Scanner (System.in);
 	public static void main(String[] args) {
 		
@@ -42,7 +42,5 @@ public class Exercicio8ContaBancaria {
 			default:
 				System.out.println("Operação inválida!");
 		}
-
 	}
-
 }

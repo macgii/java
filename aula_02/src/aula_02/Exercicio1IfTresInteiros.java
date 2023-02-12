@@ -29,10 +29,6 @@ public class Exercicio1IfTresInteiros {
 		{
 			System.out.println(soma + " é igual a " + c);
 		}
-		
-		System.out.println("");
-		
-
 	}
 
 }
