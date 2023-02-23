@@ -2,8 +2,6 @@ package exercicio1;
 
 public class PessoaFisica extends Cliente{
 	
-	
-
 	public PessoaFisica(String nome, int idade , String telefone, String endereco, String email, String estadoCivil, String cpf) {
 		super(nome, idade , telefone, endereco, email);
 		this.estadoCivil = estadoCivil;
@@ -34,6 +32,4 @@ public class PessoaFisica extends Cliente{
 		System.out.println("Estado Civil: " + this.estadoCivil);
 		System.out.println("CPF: " + this.CPF);
 	}
-	
-	
 }
