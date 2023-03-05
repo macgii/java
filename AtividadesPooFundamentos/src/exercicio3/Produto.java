@@ -57,8 +57,7 @@ public class Produto {
 	}
 
 	public void visualizar() {
-		System.out.println("\nTipo de console: " + console + "\nJogo: " + jogos + "\nQuantidade de jogos: " + quantidade
-				+ "\nClassificação indicativa: " + classificacao + String.format("\nPreço: %.2f", preco));
+		System.out.println("\nTipo de console: " + console + "\nJogo: " + jogos + "\nQuantidade de jogos: " + quantidade + "\nClassificação indicativa: " + classificacao + String.format("\nPreço: %.2f", preco));
 	}
 
 }
