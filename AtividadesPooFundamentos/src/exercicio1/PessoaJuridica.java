@@ -1,8 +1,7 @@
 package exercicio1;
 
-public class PessoaJuridica extends Cliente{
+public class PessoaJuridica extends Cliente {
 
-	 
 	private String CNPJ;
 
 	public PessoaJuridica(String nome, int idade, String telefone, String endereco, String email, String cNPJ) {
@@ -17,12 +16,10 @@ public class PessoaJuridica extends Cliente{
 	public void setCNPJ(String cNPJ) {
 		CNPJ = cNPJ;
 	}
-	
+
 	public void visualizar() {
 		super.visualizar();
 		System.out.println("CNPJ: " + this.CNPJ);
 	}
 
-	
-	
 }

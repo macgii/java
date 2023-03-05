@@ -1,9 +1,10 @@
 package exercicio1;
 
-public class PessoaFisica extends Cliente{
-	
-	public PessoaFisica(String nome, int idade , String telefone, String endereco, String email, String estadoCivil, String cpf) {
-		super(nome, idade , telefone, endereco, email);
+public class PessoaFisica extends Cliente {
+
+	public PessoaFisica(String nome, int idade, String telefone, String endereco, String email, String estadoCivil,
+			String cpf) {
+		super(nome, idade, telefone, endereco, email);
 		this.estadoCivil = estadoCivil;
 		this.CPF = cpf;
 	}
@@ -18,7 +19,7 @@ public class PessoaFisica extends Cliente{
 
 	private String estadoCivil;
 	private String CPF;
-	
+
 	public String getCpf() {
 		return CPF;
 	}

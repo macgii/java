@@ -55,8 +55,9 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	
+
 	public void visualizar() {
-		System.out.println("Nome: " + nome + "\nCPF: " + cpf + "\nCargo: " + cargo + "\nFunção: " + funcao + String.format("\nSalario: RS%.2f", salario));
+		System.out.println("Nome: " + nome + "\nCPF: " + cpf + "\nCargo: " + cargo + "\nFunção: " + funcao
+				+ String.format("\nSalario: RS%.2f", salario));
 	}
 }

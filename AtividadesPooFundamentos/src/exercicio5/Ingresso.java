@@ -51,5 +51,4 @@ public class Ingresso {
 		System.out.println("\nShow: " + show + "\nLocal: " + local + "\nHorario: " + horario + "\nDuração: " + duracao + String.format("\nValor do ingresso: %.2f", valor));
 	}
 	
-	
 }

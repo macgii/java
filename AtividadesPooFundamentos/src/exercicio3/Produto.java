@@ -7,15 +7,13 @@ public class Produto {
 	private int quantidade;
 	private String classificacao;
 	private double preco;
-	
+
 	public Produto(String console, String jogos, int quantidade, String classificacao, double preco) {
 		this.console = console;
 		this.jogos = jogos;
 		this.quantidade = quantidade;
 		this.classificacao = classificacao;
 		this.preco = preco;
-		
-		
 	}
 
 	public String getConsole() {
@@ -57,9 +55,10 @@ public class Produto {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	
+
 	public void visualizar() {
-		System.out.println("\nTipo de console: " + console + "\nJogo: " + jogos + "\nQuantidade de jogos: " + quantidade + "\nClassificação indicativa: " + classificacao + String.format("\nPreço: %.2f", preco));
+		System.out.println("\nTipo de console: " + console + "\nJogo: " + jogos + "\nQuantidade de jogos: " + quantidade
+				+ "\nClassificação indicativa: " + classificacao + String.format("\nPreço: %.2f", preco));
 	}
-	
+
 }

@@ -1,7 +1,7 @@
 package exercicio2;
 
-public class Vendedor extends Funcionario{
-	
+public class Vendedor extends Funcionario {
+
 	public Vendedor(String nome, String cpf, String cargo, String funcao, double salario, String CLT) {
 		super(nome, cpf, cargo, funcao, salario);
 		this.CLT = CLT;
@@ -16,7 +16,7 @@ public class Vendedor extends Funcionario{
 	}
 
 	private String CLT;
-	
+
 	public void visualizar() {
 		super.visualizar();
 		System.out.println("É CLT: " + this.CLT);
